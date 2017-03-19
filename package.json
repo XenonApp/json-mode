@@ -1,10 +1,26 @@
 {
-    "name": "JSON mode",
-    "uri": "gh:zedapp/json-mode",
-    "description": "JSON mode for Zed",
-    "version": "0.2",
-    "files": [
-        "check.js",
-        "json_parse.js"
-    ]
+  "name": "xenon-json-tools",
+  "version": "0.0.0",
+  "description": "JSON tools for Xenon.  Includes linting and beautifying.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XenonApp/json-tools.git"
+  },
+  "keywords": [
+    "xenon",
+    "xenon-package"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XenonApp/json-tools/issues"
+  },
+  "homepage": "https://github.com/XenonApp/json-tools#readme",
+  "dependencies": {
+    "xenon-javascript-tools": "^0.1.0"
+  }
 }
