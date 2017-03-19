@@ -20,7 +20,7 @@
     "url": "https://github.com/XenonApp/json-tools/issues"
   },
   "homepage": "https://github.com/XenonApp/json-tools#readme",
-  "dependencies": {
-    "xenon-javascript-tools": "^0.1.0"
+  "peerDependencies": {
+    "xenon-javascript-tools": "~0.1.0"
   }
 }
